@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Knowledge</title>
+  <link rel="icon" href="Logopit1.png" type="image/icon" sizes="20x20">
+<style>
+.container {
+    position: relative;
+    text-align: center;
+	font-size:40px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    right:50%;
+    transform: translate(-50%, -50%);
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 290px;
+    height: 320px;
+    opacity: 0.8;
+   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.6s;
+  cursor: pointer;
+  margin: 0px;
+
+}
+div{ text-decoration: none;}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 0.6;
+  right: 0;
+}
+A {text-decoration: none;}
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid:black;
+    width: 15%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color:inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 90%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color:#333333;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color:#333333;
+    opacity: 0.7;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px 
+    width:85%;
+    background-color:grey;
+    opacity: 0.6;
+    border-left: none;
+    height: 370px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:30px;
+   background-color:inherit;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   color:#333333;
+   text-align: center;
+}
+</style>
+ <div class="b">
+<div class="container">
+
+<img src="https://cdn-images-1.medium.com/max/2000/1*Eh3ftzvlQzIPk-nhaPedTQ.jpeg" align=center; width="1350" height="350" alt="Klematis">
+ <div class="text-block">
+
+    <h4> KNOWLEDGE</h4>
+    <p><font size="5">Registraion Now</font></p>
+    <button class="button" style="vertical-align:middle"><span><a class="A" href="https://www.coursera.org/"><font color="white">Click Here <div></font></a></span></button>
+  </div>
+</div>
+</div>
+</head>
+<body background="https://i.imgur.com/Nbi7bYI.jpg">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Web Development</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Python</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">C++</button>
+  <button class="tablinks" onclick="openCity(event, 'Java')">Java</button>
+  <button class="tablinks" onclick="openCity(event, 'JavaScript')">Java Script</button>
+  <button class="tablinks" onclick="openCity(event, 'node.js')">Node.Js</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>Web Development</h3>
+  <p><b>It makes perfect sense that one can learn how to build websites entirely online.The Web is everywhere Web development<br/>
+   is intricate,creative and interesting work that can lead to an exciting career in an in-demand,fast-growing field. In this<br/>Professional Certificate program, designed by the W3C (World Wide Web Consortium), creator of the Web standards, you will<br/> learn all of the necessary skills needed to build interactive and responsive user experiences on the Web.This program will<br/>deepen your knowledge of the 3 foundational languages that power the Web: HTML5, CSS and JavaScript.You will be guided,you<br/> step-by-step, on how to use all client-side Web development techniques to create and innovate on the web! Each course will<br/>also includes interactive examples to help you practice and code the correct way.</b></p>
+
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Python</h3>
+  <p><b>As mentioned above, Python is an excellent programming language for manipulating and analyzing data. Microsoft,<br/> ColumbiaUniversity, Harvard and other top institutions use Python in their data science and research courses as well as in <br/>introductory computer science courses. MIT’s Introduction to Computer Science Using Python is a popular, self-paced course <br/>designed to give newcomers a good overview of the language including the Python basics for writing programs, how to create <br/>algorithms, how to test and debug Python code and the fundamentals of data structures. Students who complete this 9-week <br/>program will have learned the foundational principles required to write more advanced data analysis and machine learning Python <br/>script.
+When you’ve completed the entry-level courses, apply your Python skills with UC San Diego’s Python for Data Science or <br/>Microsoft’s Programming in Python for Data Science. These courses will teach you the Python data analysis skills in high demand <br/>by employers and give you an arsenal of business analytics skills to advance your career.</b></p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>C++</h3>
+  <p><b>Microsoft offers introductory and intermediate-level free online courses in C++. The beginner computer programming <br/>
+ covers C++ syntax and C language basics as well as how to create functions. The next course dives into object-oriented<br/>   programming concepts as well as memory management and working with streams and files for input/output operations.C++ <br/> 
+   will allow you to write programs that can run on many different platforms including Windows, Linux and Mac. Explore <br/> theseintroductory courses in C++ and add to your programming skillset.<br/> 
+   In addition to C++, there are also courses in C# (C-Sharp), an object-oriented programming language developed by Microsoft <br/> within its .NET initiative. C# is similar to C and C++ and is designed to be easy to use with built-in features that aid<br/> and speed up the development process. Microsoft has free, self-paced online courses in C# so you can learn to code the<br/>  basics and well as the key features and components of this popular general-purpose programming language.</b></p>
+</div>
+<div id="Java" class="tabcontent">
+  <h3>JAVA</h3>
+  <p><b>Learning Java online has never been easier. Self-paced introductory Java courses are available as well as professional  <br/>certificate programs designed to teach you advanced Java programming skills and prepare you for a job. Java is one of the best <br/> languages for learning core coding skills because of its object-oriented approach to programming. It will get you started  <br/>on a path to becoming a software engineer, one of the most in-demand roles in the field of computer science. <br/>
+EdX offers online Java courses from Microsoft, The University of Carlos III Madrid (UC3M), The Hong Kong University of Science  <br/>and Technology (HKUST) and other top universities and institutions around the world. Start with one of the fundamentals  <br/>courses from HKUST as they are essentially a free Java tutorial for beginners. You will learn the Java code basics such as <br/> object-oriented programming, problem-solving, event-driven programming, how to create arrays and much more.</b></p>
+</div>
+<div id="JavaScript" class="tabcontent">
+  <h3>Java Script</h3>
+  <p><b>Learn JavaScript online in just a few weeks with introductory and advanced courses from The World Wide Web Consortium (W3C),<br/> The University of Pennsylvania, Microsoft and other top schools and organizations. JavaScript is used to add interactivity<br/> to web pages so many courses cover HTML, CSS and JavaScript together. Learn how to write and debug JavaScript code, how to<br/> use JS to change HTML5 elements, how to create HTML5 forms and JavaScript basics for performing animations. A more<br/> advanced JavaScript course from Penn covers client-side JS libraries and frameworks as well as server-side JS application<br/> architecture, middleware, HTTP and RESTful API design.</b>
+  </p></div>
+  <div id="node.js" class="tabcontent">
+  <h3>Node.js</h3>
+  <p><b>Node.js is a rapidly growing web server technology making it possible to use JavaScript on the server.<br/>
+   Learning Node.js is a crucial skill for any web developer today as Node.js is part of most modern web application stack like<br/> MEAN.Node.js is based on Chrome’s V8 JavaScript engine which ensures fast execution of server-side JavaScript code and<br/> makes your application lightweight and efficient.Node.js has it’s own package ecosystem and use can use the Node.js package<br/> manager NPM to manage the dependencies within your project. The ecosystem is one of the largest package libraries available.<br/>
+   Node.js is relevant at the same time for back-end and front-end developers. Learning Node.js from the ground up will perfectly<br/> add to your web development skill set.In the following you can find a list of top Node.js courses you can use to get<br/> started with Node.js.</b>
+  </p></div>
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>John</h2>
+        <p class="title">CEO & Founder</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rob</h2>
+        <p class="title">Director</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Herry</h2>
+        <p class="title">Coordinator</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i>Delhi,India<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +918368497270<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>  
+ <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge" >
+  <p style="font-size:70%"><i>Kmowledge is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+</body>
+
+</html>
